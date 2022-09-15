@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #29a304, #07eacb);
+}
+.card{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    padding: 10px;
+    margin-right: 50px;
+    width: 450px;
+    height: 750px;
+    background: #fff;
+    border-radius: 0 40px 0 40px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+}
+.card .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+.card .content .img{
+    height: 130px;
+    width: 130px;
+}
+.card .content .img img{
+    height: 100%;
+    margin-top: -60px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 4px;
+    background: #fff;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.15);
+}
+.card .content .detalhes .nome{
+    font-size: 25px;
+    margin-top: -50px;
+    font-weight: 500;
+}
+.card .content .detalhes .job{
+    font-size: 15px;
+    color: rgb(128, 128, 128);
+}
+.card .content .media-icons{
+    display: flex;
+    margin-top: 20px;
+}
+.card .content .media-icons a{
+    height: 35px;
+    width: 35px;
+    color: rgb(255, 255, 255);
+    background: #08a048;
+    margin: 0 4px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 19px;
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+}
+.content .media-icons a:hover{
+    border-color: #000;
+    color: #000;
+    background: #fff; 
+}
+
+
+
+/* SWIPER */
+.card-image .card-img{
+    position: relative;
+    margin-bottom: 10px;
+    height: 190px;
+    width: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+.card-01{
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 390px;
+}
+.descricao{
+    font-size: 0.8em;
+    text-align: center;
+    padding: 10px;
+}
+.nome-projeto{
+    position: relative;
+    font-size: 1.25em;
+    color: #fff;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+    position: relative;
+}
+.card-content{
+    position: relative;
+    row-gap: 15px;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    background-color: #007aff;
+}
+.botao{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 10px;
+    background-color: #08a048;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.botao:hover{
+    border: #000 solid 2px;
+    color: #000;
+    background: #fff; 
+}
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    background: #fff;
+}
+
+@media screen and (max-width: 750px){
+    .card{
+        width: 400px;
+        height: 700px;
+    }
+    .card-image .card-img{
+        height: 140px;
+        width: 250px;
+    }
+}
+@media screen and (max-width: 650px){
+    .card{
+        width: 350px;
+        height: 750px;
+    }
+    .card-image .card-img{
+        height: 140px;
+        width: 250px;
+    }
+}
