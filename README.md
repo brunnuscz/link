@@ -3,4 +3,4 @@
 💻 Me chamo Bruno Cruz estou me formando em Bacharelado em Ciência da Computação pela UESPI. <br>
 📊 Resolvi fazer esse projeto para que eu podesse mostrar alguns de meus trabalhos. <br>
 
-📌 Para visualizar basta acessar: https://brunnuscz.github.io/my-portfolio/
+📌 Para visualizar basta acessar: https://brunnuscz.github.io/link/
