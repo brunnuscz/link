@@ -16,7 +16,7 @@ body{
 }
 .card{
     position: relative;
-    margin-top: 10px;
+    margin-top: 100px;
     margin-bottom: 10px;
     margin-left: 50px;
     padding: 20px;
@@ -50,7 +50,7 @@ body{
 }
 .card .content .detalhes .nome{
     font-size: 25px;
-    margin-top: -50px;
+    margin-top: -80px;
     font-weight: 500;
 }
 .card .content .detalhes .job{
@@ -59,7 +59,6 @@ body{
 }
 .card .content .media-icons{
     display: flex;
-    margin-top: 20px;
 }
 .card .content .media-icons a{
     height: 35px;
@@ -80,9 +79,6 @@ body{
     background: #fff; 
 }
 
-
-
-/* SWIPER */
 .card-image .card-img{
     position: relative;
     margin: 15px;
@@ -130,7 +126,7 @@ body{
     height: 50px;
     width: 100%;
     border-radius: 25px 25px 0 0;
-    background-color: #007aff;
+    background-color: #08a048;
 }
 .botao{
     text-decoration: none;
@@ -141,7 +137,7 @@ body{
     border-radius: 6px;
     margin: 14px;
     cursor: pointer;
-    transition: all 0.4s ease;
+    transition: all 0.1s ease;
 }
 .botao:hover{
     border: #000 solid 2px;
@@ -164,7 +160,7 @@ body{
     }
     .card-image .card-img{
         height: 160px;
-        width: 250px;
+        width: 270px;
     }
 }
 @media screen and (max-width: 650px){
@@ -175,5 +171,18 @@ body{
     .card-image .card-img{
         height: 130px;
         width: 220px;
+    }
+}
+@media screen and (max-width: 400px){
+    .card{
+        width: 280px;
+        height: 100%;
+    }
+    .nome-projeto{
+        font-size: 1.0em;
+    }
+    .card-image .card-img{
+        height: 90px;
+        width: 170px;
     }
 }
