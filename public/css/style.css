@@ -99,8 +99,10 @@ body{
 .descricao{
     border: #fff;
     color: #000;
-    text-align: justify;
-    font-size: 0.9em;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
     padding: 10px;
 }
 .nome-projeto{
@@ -162,6 +164,9 @@ body{
         height: 160px;
         width: 270px;
     }
+    .descricao{
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 650px){
     .card{
@@ -171,6 +176,9 @@ body{
     .card-image .card-img{
         height: 130px;
         width: 220px;
+    }
+    .descricao{
+        font-size: 10px;
     }
 }
 @media screen and (max-width: 400px){
@@ -201,5 +209,8 @@ body{
         border-color: #000;
         color: #000;
         background: #fff; 
+    }
+    .descricao{
+        font-size: 8px;
     }
 }
