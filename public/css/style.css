@@ -97,10 +97,7 @@ body{
     border: 1px solid rgb(221, 221, 221);
 }
 .descricao{
-    border-top: 1px solid rgb(173, 173, 173);
-    border-bottom: 1px solid rgb(173, 173, 173);
-    border-left: #fff;
-    border-right: #fff;
+    border: #fff;
     color: #000;
     background: rgb(255, 255, 255);
     text-align: center;
@@ -168,6 +165,10 @@ body{
         width: 270px;
     }
     .descricao{
+        border-top: 1px solid rgb(221, 221, 221);
+        border-bottom: 1px solid  rgb(221, 221, 221);
+        border-left: #fff;
+        border-right: #fff;
         font-size: 12px;
     }
 }
@@ -181,6 +182,10 @@ body{
         width: 220px;
     }
     .descricao{
+        border-top: 1px solid rgb(221, 221, 221);
+        border-bottom: 1px solid  rgb(221, 221, 221);
+        border-left: #fff;
+        border-right: #fff;
         font-size: 10px;
     }
 }
@@ -214,6 +219,10 @@ body{
         background: #fff; 
     }
     .descricao{
+        border-top: 1px solid rgb(221, 221, 221);
+        border-bottom: 1px solid  rgb(221, 221, 221);
+        border-left: #fff;
+        border-right: #fff;
         font-size: 8px;
     }
 }
