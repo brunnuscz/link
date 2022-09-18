@@ -16,7 +16,7 @@ body{
 }
 .card{
     position: relative;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 40px;
     margin-left: 50px;
     padding: 20px;
@@ -40,7 +40,7 @@ body{
 }
 .card .content .img img{
     height: 100%;
-    margin-top: -85px;
+    margin-top: -90px;
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
@@ -186,7 +186,7 @@ body{
         border-bottom: 1px solid  rgb(221, 221, 221);
         border-left: #fff;
         border-right: #fff;
-        font-size: 10px;
+        font-size: 11px;
     }
 }
 @media screen and (max-width: 400px){
@@ -208,10 +208,10 @@ body{
         font-size: 10px;
     }
     .card .content .media-icons a{
-        height: 25px;
-        width: 25px;
-        line-height: 23px;
-        font-size: 15px;
+        height: 28px;
+        width: 28px;
+        line-height: 26px;
+        font-size: 18px;
     }
     .content .media-icons a:hover{
         border-color: #000;
@@ -223,6 +223,6 @@ body{
         border-bottom: 1px solid  rgb(221, 221, 221);
         border-left: #fff;
         border-right: #fff;
-        font-size: 8px;
+        font-size: 10px;
     }
 }
