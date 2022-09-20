@@ -4,7 +4,7 @@
 
 ## 🚩 Prévia
 
-<img src="public/img/previa.png" width="100%">
+<img src="public/img/previa-site.png" width="100%">
 
 <h4 align="center"><a href="https://brunnuscz.github.io/link">Clique aqui para visitar o projeto</a></h4>
 
