@@ -12,7 +12,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(45deg, #29a304, #07eacb);
+    background: linear-gradient(45deg, #29a304, #10e8cb);
 }
 .card{
     position: relative;
@@ -21,7 +21,7 @@ body{
     margin-left: 50px;
     padding: 20px;
     margin-right: 50px;
-    width: 500px;
+    width: 480px;
     height: 100%;
     background: #fff;
     border-radius: 0 40px 0 40px;
@@ -50,7 +50,7 @@ body{
 }
 .card .content .detalhes .nome{
     font-size: 25px;
-    margin-top: -80px;
+    margin-top: -90px;
     font-weight: 500;
 }
 .card .content .detalhes .job{
@@ -65,7 +65,7 @@ body{
     width: 35px;
     color: rgb(255, 255, 255);
     background: #08a048;
-    margin: 0 4px;
+    margin: -20px 4px 0 4px;
     border-radius: 50%;
     text-align: center;
     line-height: 35px;
@@ -78,32 +78,35 @@ body{
     color: #000;
     background: #fff; 
 }
-
-.card-image .card-img{
+.card-img{
     position: relative;
-    margin: 15px;
-    height: 190px;
-    width: 330px;
+    margin: 17px 0 5px 0;
+    height: 160px;
+    width: 320px;
     border-radius: 15px;
     object-fit: cover;
     box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 .card-01{
     border-radius: 25px;
-    margin-top: 10px;
+    margin-top: -5px;
     height: 390px;
     width: 120px;
-    padding-bottom: 20px;
+    padding-bottom: 13px;
     border: 1px solid rgb(221, 221, 221);
 }
+.container {
+    position: relative;
+}
 .descricao{
-    border: #fff;
     color: #000;
-    background: rgb(255, 255, 255);
     text-align: center;
     width: 100%;
+    height: 160px;
+    font-weight: 400;
     font-size: 15px;
-    padding: 5px;
+    padding: 0 15px 0 15px;
+    top: 0;
 }
 .nome-projeto{
     position: relative;
@@ -137,18 +140,18 @@ body{
     padding: 5px 10px;
     background-color: #08a048;
     border-radius: 6px;
-    margin: 14px;
     cursor: pointer;
     transition: all 0.1s ease;
 }
 .botao:hover{
-    border: #000 solid 2px;
-    color: #000;
-    background: #fff; 
+    border: 2px solid #000;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255); 
 }
 .slide-container{
     max-width: 1120px;
     width: 100%;
+    height: 100%;
     background: #fff;
 }
 .slide-content{
@@ -158,51 +161,42 @@ body{
 @media screen and (max-width: 750px){
     .card{
         width: 400px;
-        height: 100%;
     }
-    .card-image .card-img{
-        height: 160px;
-        width: 270px;
+    .card-img{
+        height: 140px;
+        width: 290px;
     }
     .descricao{
-        border-top: 1px solid rgb(221, 221, 221);
-        border-bottom: 1px solid  rgb(221, 221, 221);
-        border-left: #fff;
-        border-right: #fff;
+        height: 135px;
         font-size: 12px;
     }
 }
 @media screen and (max-width: 650px){
     .card{
         width: 350px;
-        height: 100%;
     }
-    .card-image .card-img{
-        height: 130px;
-        width: 220px;
+    .card-img{
+        height: 120px;
+        width: 250px;
     }
     .descricao{
-        border-top: 1px solid rgb(221, 221, 221);
-        border-bottom: 1px solid  rgb(221, 221, 221);
-        border-left: #fff;
-        border-right: #fff;
         font-size: 11px;
     }
 }
 @media screen and (max-width: 400px){
     .card{
         width: 280px;
-        height: 100%;
     }
     .overlay{
-        height: 40px;
+        height: 35px;
     }
     .nome-projeto{
-        font-size: 0.8em;
+        font-size: 0.6em;
     }
-    .card-image .card-img{
-        height: 90px;
+    .card-img{
+        height: 80px;
         width: 170px;
+        border-radius: 10px;
     }
     .botao{
         font-size: 10px;
@@ -219,10 +213,6 @@ body{
         background: #fff; 
     }
     .descricao{
-        border-top: 1px solid rgb(221, 221, 221);
-        border-bottom: 1px solid  rgb(221, 221, 221);
-        border-left: #fff;
-        border-right: #fff;
-        font-size: 10px;
+        font-size: 9px;
     }
 }

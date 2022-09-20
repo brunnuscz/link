@@ -1,6 +1,17 @@
-# 📑 Portifólio
-😁 Oi, tudo bem? Espero que sim.  <br>
-💻 Me chamo Bruno Cruz estou me formando em Bacharelado em Ciência da Computação pela UESPI. <br>
-📊 Resolvi fazer esse projeto para que eu podesse mostrar alguns de meus trabalhos. <br>
+<h1 align="center">
+    💻​<br>Portfólio - Bruno
+</h1>
 
-📌 Para visualizar basta acessar: https://brunnuscz.github.io/link/
+## 🚩 Prévia
+
+<img src="public/img/previa.png" width="100%">
+
+<h4 align="center"><a href="https://brunnuscz.github.io/link">Clique aqui para visitar o projeto</a></h4>
+
+## 💼 Materiais
+
+- HTML;
+- CSS;
+- JavaScript;
+- Swiper;
+- Imagens SVG, PNG;
