@@ -1,5 +1,1 @@
-<h1> < 💻​ Bruno Cruz /> </h1>
-
-## Link
-
-- https://brunnuscz.github.io/link
+Acesse: https://brunnuscz.github.io/link
