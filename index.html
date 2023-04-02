@@ -1,154 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- FOLHA DE ESTILO -->
-        <link rel="stylesheet" href="public/css/style.css">
-        <!-- CÓDIGO SWIPER -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
-        <!-- CAMINHO DO ARQUIVO -->
-        <link rel="stylesheet" href="public/css/swiper-bundle.min.css">
-        <!-- FAVICON -->
-        <link rel="icon" href="public/img/favicon-site.png">
-        <!-- TÍTULO -->
-        <title>Portfólio - Bruno</title>
-    </head>
-    <body>
-        <div class="card">
-            <div class="content">
-                <!-- IMAGEM PERFIL -->
-                <div class="img">
-                    <img src="public/img/profile.jpg" alt="">
-                </div>
-                <!-- DETALHES -->
-                <div class="detalhes">
-                    <div class="nome">Bruno Cruz</div>
-                    <div class="job">Software Developer</div>
-                </div>
-                <!-- SOCIAL -->
-                <div class="media-icons">
-                    <a href="https://www.linkedin.com/in/brunnuscz/"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="https://www.github.com/brunnuscz/"><i class="fa-brands fa-github-alt"></i></a>
-                    <a href="https://www.instagram.com/brunnuscz/"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="mailto:brunnuscz@gmail.com?"><i class="fa-regular fa-envelope"></i></a>
-                </div>
-                <!-- BOTÕES DE NAVEGAÇÃO -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
-                <!-- SLIDES -->
-                <div class="slide-container swiper">
-                    <div class="slide-content">
-                        <div class="card-wrapper swiper-wrapper">
-                            <!-- CARD 01 -->
-                            <div class="card-01 swiper-slide">
-                                <div class="card-content">
-                                    <span class="overlay"></span>
-                                    <h2 class="nome-projeto">
-                                        TCC UESPI
-                                    </h2>
-                                </div>
-                                <div class="container">
-                                    <h3 class="descricao">
-                                        O sistema foi desenvolvido para meu projeto de TCC.
-                                        Consiste em um gerenciador de TCC para a UESPI.
-                                        O objetivo do projeto é auxiliar Alunos(A) e Professores(P):
-                                        Na escolha de um orientador e tema; No controle de TCC's;
-                                        Na organização de atividades, dentre outras funcionalidades. <br>
-                                        <b>A: 10101 ~ P: 12121 ~ Senhas: teste123</b>
-                                    </h3>
-                                    <img src="public/img/project-1.png" alt="Projeto 01" class="card-img">
-                                </div>
-                                <a href="https://tcc-uespi.herokuapp.com" class="botao">Acessar</a>
-                            </div>
-                            <!-- CARD 02 -->
-                            <div class="card-01 swiper-slide">
-                                <div class="card-content">
-                                    <span class="overlay"></span>
-                                    <h2 class="nome-projeto">
-                                        SIMPLE CALCULATOR
-                                    </h2>
-                                </div>
-                                <div class="container">
-                                    <h3 class="descricao">
-                                        O intuito com este projeto foi desenvolver um sistema 
-                                        simples de calculadora, com operações básicas. Para a 
-                                        construção do projeto foram utilizadas as tecnologias HTML, 
-                                        CSS e JavaScript. O projeto está hospedado no GitHub e 
-                                        pode ser utilizado facilmente seguindo os tutoriais descritos.
-                                    </h3>
-                                    <img src="public/img/project-2.png" alt="Projeto 02" class="card-img">
-                                </div>
-                                <a href="https://brunnuscz.github.io/simple-calculator/" class="botao">Acessar</a>
-                            </div>
-                            <!-- CARD 03 -->
-                            <div class="card-01 swiper-slide">
-                                <div class="card-content">
-                                    <span class="overlay"></span>
-                                    <h2 class="nome-projeto">
-                                        GAME SNAKE
-                                    </h2>
-                                </div>
-                                <div class="container">
-                                    <h3 class="descricao">
-                                        Este é o famoso jogo da cobra, desenvolvido para praticar 
-                                        um pouco com algumas tecnologias, como HTML, CSS e JS. 
-                                        Ele pode ser jogado apenas por desktop, com os comandos: 
-                                        Cima, Baixo, Direita e Esquerda. E o objetivo é comer 
-                                        o máximo de maçãs possível.
-                                    </h3>
-                                    <img src="public/img/project-3.png" alt="Projeto 03" class="card-img">
-                                </div>
-                                <a href="https://brunnuscz.github.io/game-snake/" class="botao">Acessar</a>
-                            </div>
-                            <!-- CARD 04 -->
-                            <div class="card-01 swiper-slide">
-                                <div class="card-content">
-                                    <span class="overlay"></span>
-                                    <h2 class="nome-projeto">
-                                        MAP COLOR
-                                    </h2>
-                                </div>
-                                <div class="container">
-                                    <h3 class="descricao">
-                                        A ideia inicial deste projeto é justamente desenvolver 
-                                        um sistema onde ao passar o mouse por cima de algum estado 
-                                        brasileiro a cor do estado mudasse automaticamente, para 
-                                        isso os materiais utilizados foram PHP, JS e CSS.
-                                        O projeto está armazenado no GitHub.
-                                    </h3>
-                                    <img src="public/img/project-4.png" alt="Projeto 04" class="card-img">
-                                </div>
-                                <a href="https://github.com/brunnuscz/map-color" class="botao">Acessar</a>
-                            </div>
-                            <!-- CARD 05-->
-                            <div class="card-01 swiper-slide">
-                                <div class="card-content">
-                                    <span class="overlay"></span>
-                                    <h2 class="nome-projeto">
-                                        NOTED HERE
-                                    </h2>
-                                </div>
-                                <div class="container">
-                                    <h3 class="descricao">
-                                        O objetivo com esse projeto é justamente gerenciar anotações, 
-                                        os usuários podem criar uma conta e acessar ela por meio do login. 
-                                        Portanto os usuários podem criar, buscar, editar, deletar e listar 
-                                        suas anotações, além de visualizar as anotações públicas de outros usuários.
-                                    </h3>
-                                    <img src="public/img/project-5.png" alt="Projeto 05" class="card-img">
-                                </div>
-                                <a href="https://noted-here.herokuapp.com" class="botao">Acessar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>Bruno Cruz</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="public/img/favicon-site.png" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    <!-- card -->
+    <div class="card">
+        <!-- content -->
+        <div class="content">
+            <!-- image -->
+            <div class="image">
+                <img src="public/img/profile.png" alt="Bruno Cruz">
             </div>
+            <!-- image end -->
+             <!-- details -->
+             <div class="details">
+                 <h2> Bruno Cruz </h2>
+                 <p> Software Developer </p>
+             </div>
+             <!-- details end -->
+            <!-- links -->
+            <div class="links">
+                <a href="https://github.com/brunnuscz">GitHub</a>
+                <a href="https://www.linkedin.com/in/brunnuscz/">Linkedin</a>
+                <a href="mailto:brunnuscz@gmail.com?">E-mail</a>
+                <a href="https://twitter.com/brunnuscz">Twitter</a>
+                <a href="https://www.instagram.com/brunnuscz/">Instagram</a>
+            </div>
+            <!-- links end -->
         </div>
-    </body>
-    <!-- CÓDIGO SWIPER -->
-    <script src="public/js/swiper-bundle.min.js"></script>
-    <script src="public/js/script.js"></script>
+        <!-- card end -->
+    </div>
+    <!-- card end -->
+</body>
 </html>

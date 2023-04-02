@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
-
+/* GERAL */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,35 +10,37 @@ body{
     min-height: 100vh;
     width: 100%;
     display: flex;
+    background-image: linear-gradient(#2fd8bc, #3a87fa);
     align-items: center;
     justify-content: center;
-    background: linear-gradient(45deg, #29a304, #10e8cb);
 }
+
+/* CARD */
 .card{
     position: relative;
-    margin-top: 80px;
-    margin-bottom: 40px;
-    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 20px;
     padding: 20px;
-    margin-right: 50px;
-    width: 480px;
+    width: 400px;
     height: 100%;
     background: #fff;
     border-radius: 0 40px 0 40px;
-    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    box-shadow: 0 15px 50px rgba(0,0,0,0.15);
 }
 .card .content{
     display: flex;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-} 
-.card .content .img{
-    height: 130px;
-    width: 130px;
 }
-.card .content .img img{
+.card .content .image{
+    height: 150px;
+    width: 150px;
+    margin-bottom: -100px;
+}
+.card .content .image img{
     height: 100%;
     margin-top: -90px;
     width: 100%;
@@ -48,171 +50,61 @@ body{
     background: #fff;
     box-shadow: 0 15px 50px rgba(0,0,0,0.15);
 }
-.card .content .detalhes .nome{
-    font-size: 25px;
-    margin-top: -90px;
-    font-weight: 500;
+
+/* DETAILS */
+.details h2{
+    color: #0e9692;
+    font-size: 28px;
+    margin-top: 10px;
 }
-.card .content .detalhes .job{
-    font-size: 15px;
-    color: rgb(128, 128, 128);
+.details p{
+    color: #676767;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 17px;
 }
-.card .content .media-icons{
-    display: flex;
-}
-.card .content .media-icons a{
-    height: 35px;
-    width: 35px;
-    color: rgb(255, 255, 255);
-    background: #08a048;
-    margin: -20px 4px 0 4px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 35px;
-    font-size: 19px;
-    border: 2px solid transparent;
-    transition: all 0.4s ease;
-}
-.content .media-icons a:hover{
-    border-color: #000;
-    color: #000;
-    background: #fff; 
-}
-.card-img{
-    position: relative;
-    margin: 17px 0 5px 0;
-    height: 160px;
-    width: 320px;
-    border-radius: 15px;
-    object-fit: cover;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
-}
-.card-01{
-    border-radius: 25px;
-    margin-top: -5px;
-    height: 390px;
-    width: 120px;
-    padding-bottom: 13px;
-    border: 1px solid rgb(221, 221, 221);
-}
-.container {
-    position: relative;
-}
-.descricao{
-    color: #000;
-    text-align: center;
-    width: 100%;
-    height: 160px;
-    font-weight: 400;
-    font-size: 15px;
-    padding: 0 15px 0 15px;
-    top: 0;
-}
-.nome-projeto{
-    position: relative;
-    font-size: 1.25em;
-    color: #fff;
-}
-.card-content{
+
+/* LINKS */
+.links{
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 10px 14px;
-    position: relative;
-}
-.card-content{
-    position: relative;
-    row-gap: 15px;
-}
-.overlay{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 50px;
     width: 100%;
-    border-radius: 25px 25px 0 0;
-    background-color: #08a048;
+    gap: 20px;
 }
-.botao{
+.links a{
+    font-weight: 600;
+    background: #4994ea;
+    padding: 10px 0;
     text-decoration: none;
-    font-size: 16px;
     color: #fff;
-    padding: 5px 10px;
-    background-color: #08a048;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.1s ease;
+    border-radius: 3px;
+    box-shadow: 8px 8px 0px 0px #676767;
+    transition: all .5s ease-in-out;
 }
-.botao:hover{
-    border: 2px solid #000;
-    color: rgb(0, 0, 0);
-    background: rgb(255, 255, 255); 
+.links a:hover{
+    background:#676767;
+    box-shadow: 8px 8px 0px 0px #4994ea;
 }
-.slide-container{
-    max-width: 1120px;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-}
-.slide-content{
-    margin: 10px;
-    padding: 10px;
-}
-@media screen and (max-width: 750px){
+
+/* MEDIA */
+@media (max-width: 520px){
+    .card .content .image{
+        width: 130px;
+        height: 130px;
+    }
+    .card .content .image img{
+        margin-top: -100px;
+    }
     .card{
-        width: 400px;
+        width: 90%;
+        padding: 30px;
     }
-    .card-img{
-        height: 140px;
-        width: 290px;
+    .links{
+        gap: 12px;
     }
-    .descricao{
-        height: 135px;
-        font-size: 12px;
-    }
-}
-@media screen and (max-width: 650px){
-    .card{
-        width: 350px;
-    }
-    .card-img{
-        height: 120px;
-        width: 250px;
-    }
-    .descricao{
-        font-size: 11px;
-    }
-}
-@media screen and (max-width: 400px){
-    .card{
-        width: 280px;
-    }
-    .overlay{
-        height: 35px;
-    }
-    .nome-projeto{
-        font-size: 0.6em;
-    }
-    .card-img{
-        height: 80px;
-        width: 170px;
-        border-radius: 10px;
-    }
-    .botao{
-        font-size: 10px;
-    }
-    .card .content .media-icons a{
-        height: 28px;
-        width: 28px;
-        line-height: 26px;
-        font-size: 18px;
-    }
-    .content .media-icons a:hover{
-        border-color: #000;
-        color: #000;
-        background: #fff; 
-    }
-    .descricao{
-        font-size: 9px;
+    .links a{
+        box-shadow: 5px 5px 0px 0px rgb(69, 92, 119);
+        padding: 10px 0;
     }
 }
